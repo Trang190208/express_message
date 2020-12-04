@@ -1,15 +1,27 @@
 {
   "name": "express_message",
   "version": "1.0.0",
-  "description": "",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node server.js"
   },
   "author": "",
   "license": "ISC",
   "dependencies": {
+    "add": "^2.0.6",
     "config": "^3.3.3",
-    "express": "^4.17.1"
-  }
+    "express": "^4.17.1",
+    "origin": "^0.8.6"
+  },
+  "devDependencies": {},
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Trang190208/express_message.git"
+  },
+  "bugs": {
+    "url": "https://github.com/Trang190208/express_message/issues"
+  },
+  "homepage": "https://github.com/Trang190208/express_message#readme",
+  "description": ""
 }
